@@ -391,7 +391,7 @@ class _MonthYearPickerDialogState extends State<MonthYearPickerDialog> {
 
   void _updateSelectedDate(DateTime date) {
     setState(() {
-      _selectedDate = DateTime(date.year, date.month);
+      //_selectedDate = DateTime(date.year, date.month);
       _updatePaginators();
     });
   }
